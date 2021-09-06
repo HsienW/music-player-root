@@ -1,0 +1,32 @@
+{
+  "name": "music-player-root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm-run-all --serial install:*",
+    "install:music-player-main": "cd music-player-main && npm i",
+    "install:music-player-common": "cd music-player-common && npm i",
+    "install:music-player-portal": "cd music-player-portal && npm i",
+    "install:music-player-search": "cd music-player-search && npm i",
+    "install:music-player-collection": "cd music-player-collection && npm i",
+    "start": "npm-run-all --parallel start:*",
+    "start:music-player-portal": "cd music-player-portal && npm start",
+    "start:music-player-search": "cd music-player-search && npm start",
+    "start:music-player-collection": "cd music-player-collection && npm start",
+    "start:main": "cd main && npm start",
+    "build": "npm-run-all --parallel build:*",
+    "build:music-player-portal": "cd music-player-portal && npm run build",
+    "build:music-player-search": "cd music-player-search && npm run build",
+    "build:music-player-collection": "cd music-player-collection && npm run build",
+    "build:main": "cd main && npm run build",
+    "clean": "rimraf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hsien W Wei",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "4.1.5"
+  }
+}
