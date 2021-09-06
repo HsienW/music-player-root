@@ -1,0 +1,15 @@
+[submodule "music-player-main"]
+	path = music-player-main
+	url = https://github.com/HsienW/music-player-main.git
+[submodule "music-player-common"]
+	path = music-player-common
+	url = https://github.com/HsienW/music-player-common.git
+[submodule "music-player-portal"]
+	path = music-player-portal
+	url = https://github.com/HsienW/music-player-portal.git
+[submodule "music-player-collection"]
+	path = music-player-collection
+	url = https://github.com/HsienW/music-player-collection.git
+[submodule "music-player-search"]
+	path = music-player-search
+	url = https://github.com/HsienW/music-player-search.git
