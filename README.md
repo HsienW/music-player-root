@@ -1,5 +1,8 @@
 # Music Player
 
+![image](https://user-images.githubusercontent.com/20525933/133104550-1e391332-4ad6-45e6-8e1c-396b1939f25d.png)
+
+
 ## Structure (Micro Front-end)
 > - [Qiankun](https://qiankun.umijs.org/zh/guide)
 > - [React](https://zh-hant.reactjs.org/)
@@ -29,6 +32,14 @@ npm start
 - **Portal** ： 用 React 製作, 啟動時負責管理 User auth 與 home page 等等
 - **Search** ： 用 React 製作, 啟動時負責管理 搜尋功能, 播放後導向 Collection
 - **Collection** ： 用 React 製作, 啟動時負責管理播放音樂、歌手、專輯等等功能
+
+## Demo：
+
+- [**Demo link**](http://music-player-demo-east1.s3-website-us-east-1.amazonaws.com)
+- When logging in, if you don’t have a spotify account, you can use the public demo account shown below to enter
+
+ ![image](https://user-images.githubusercontent.com/20525933/133105455-8d892854-8ce7-43b5-b97c-f2dd1607e390.png)
+
 
 
 
