@@ -35,7 +35,7 @@ npm start
 
 ## Demo：
 
-- [**Demo link**](http://music-player-demo-east1.s3-website-us-east-1.amazonaws.com)
+- [**Demo link**](http://music-player-demo-east1.s3-website-us-east-1.amazonaws.com/portal/login)
 - When logging in, if you don’t have a spotify account, you can use the public demo account shown below to enter
 
  ![image](https://user-images.githubusercontent.com/20525933/133105455-8d892854-8ce7-43b5-b97c-f2dd1607e390.png)
